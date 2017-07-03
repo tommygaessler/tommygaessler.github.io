@@ -1,0 +1,7 @@
+textarea {
+  resize: none;
+}
+
+p strong {
+  cursor: pointer;
+}

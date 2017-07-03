@@ -1,0 +1,33 @@
+<h1>Contact</h1>
+
+<div class="alert alert-success text-center" *ngIf="response">
+  <p>{{ response }}</p>
+  <p (click)="sendAgain()"><strong>Click here to send another email!</strong></p>
+</div>
+<div class="alert alert-danger text-center" *ngIf="error">
+  <p>{{ error }}</p>
+  <p (click)="sendAgain()"><strong>Click here to send another email!</strong></p>
+</div>
+
+<p *ngIf="form">Feel free to reach out, I'd love to hear from you!</p>
+
+<form (ngSubmit)="onSubmit()" *ngIf="form">
+  <div class="form-group" [ngClass]="{'has-error': nameSuccess===false, 'has-success':nameSuccess }">
+    <label for="name">Your Name</label>
+    <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name">
+  </div>
+  <div class="form-group" [ngClass]="{'has-error': emailSuccess===false, 'has-success':emailSuccess }">
+    <label for="email">Your Email</label>
+    <input type="text" class="form-control" id="email" [(ngModel)]="email" name="email">
+  </div>
+  <div class="form-group" [ngClass]="{'has-error': messageSuccess===false, 'has-success':messageSuccess }">
+    <label for="message">Your Message</label>
+    <textarea class="form-control" rows="5" id="message" [(ngModel)]="message" name="message"></textarea>
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary btn-block" [ngClass]="{'disabled': loading }">
+      <span *ngIf="!loading">Send</span>
+      <span *ngIf="loading">Sending <i class="fa fa-circle-o-notch fa-spin fa-fw"></i></span>
+    </button>
+  </div>
+</form>

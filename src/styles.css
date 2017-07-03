@@ -1,1 +1,308 @@
-/* You can add global styles to this file, and also import other style files */
+/* Youtube Embed */
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+/* Twitter Embed */
+
+.twitter-tweet {
+  display: block;
+  margin: auto;
+}
+
+/* Project Share Buttons */
+
+.twitter {
+  border: none;
+  background-color: #1b95e0;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0px 8px 0px 8px;
+  vertical-align: top;
+  zoom: 1;
+}
+
+.twitter:active, .twitter:focus, .twitter:hover {
+  background-color: #0c7abf;
+}
+
+.facebook {
+  border: none;
+  background: #4267b2;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0px 8px 0px 8px;
+  vertical-align: top;
+  zoom: 1;
+  margin-left: 10px;
+}
+
+.facebook:hover {
+  background: #365899;
+}
+
+.facebook:active {
+  background: #577fbc;
+}
+
+.share-buttons {
+  position: absolute;
+  top: 30.5px;
+  right: 19px;
+}
+
+.twitter:focus {
+  outline: none;
+}
+
+.facebook:focus {
+  outline: none;
+}
+
+/* Global Styles */
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visted {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #2196f3;
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar-brand img {
+  height: 23px;
+  width: auto;
+  display: inline;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Navbar Animations */
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	position: relative;
+	transition: all 300ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	top: 6px;
+	transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	top: -6px;
+	transform: rotate(-45deg);
+}
+
+
+/*-------- side --------*/
+
+.profile-pic {
+  width: 70%;
+  border-radius: 50%;
+  border: 1px solid white;
+  z-index: 1;
+}
+
+.background-image {
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: top;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.side {
+  width: 30%;
+  height: 100%;
+  padding: 6%;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+  /*overflow-y: scroll;*/
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+  text-shadow: 0px 0px 5px #333;
+}
+
+.side h3 {
+  font-size: 25px;
+}
+
+.side h3 a {
+  color: white;
+}
+
+.page-links a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links a {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 25px !important;
+}
+
+.social-links a:link {
+  text-decoration: none;
+}
+
+.social-links a:visited {
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+.social-links a:active {
+  text-decoration: none;
+}
+
+/*-------- main --------*/
+
+.main {
+  padding: 20px 150px;
+  margin-left: 30%;
+  width: 70%;
+  float: left;
+  /*margin-bottom: 40px;*/
+}
+
+p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+/*-------- media queries --------*/
+
+@media (max-width: 983px) {
+  .main {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .navbar {
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+
+  .page-links {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .profile-pic {
+    margin-top: 20px;
+    width: 80px;
+  }
+
+  .background-image {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    background-position: center top;
+  }
+
+  .side {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    padding: 0;
+    top: 0;
+  }
+
+  .main {
+    position: relative;
+    margin: 0;
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

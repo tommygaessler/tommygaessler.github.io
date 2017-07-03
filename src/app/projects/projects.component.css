@@ -1,0 +1,32 @@
+img {
+  width: 100%;
+  border: 3px solid #f3f4f5;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.well {
+  position: relative;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #f3f4f5;
+}
+
+.appstore {
+  position: absolute;
+  right: 19px;
+  width: 141.766px;
+  bottom: 19px;
+}
+
+h2 {
+  display: inline-block;
+}
+
+h2 a {
+  color: #666666;
+}
+
+h2 a:hover {
+  color: #777;
+}

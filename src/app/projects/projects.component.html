@@ -1,0 +1,47 @@
+<h1>Projects</h1>
+
+<div *ngFor="let key of keys">
+  <a *ngIf="projects[key].type==='web' || projects[key].type==='app'" href="{{ projects[key].deployed }}" target="_blank">
+    <img src="{{ projects[key].image }}" alt="">
+  </a>
+
+  <div *ngIf="projects[key].type==='web/video'" class="video-container">
+    <youtube-player [videoId]="projects[key].video"></youtube-player>
+  </div>
+
+  <div class="well">
+
+      <h2>
+        <a href="{{ projects[key].deployed }}" target="_blank">
+          {{ projects[key].name }}
+        </a>
+      </h2>
+
+
+    <div class="share-buttons">
+      <button shareButton="twitter" [sbUrl]="projects[key].deployed" [sbTitle]="'Check out ' + projects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+
+      <button shareButton="facebook" [sbUrl]="projects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
+    </div>
+
+    <p>
+      <a href="{{ projects[key].github }}" target="_blank">
+        <i class="fa fa-github" aria-hidden="true"></i>
+        Github Repo
+      </a> |
+      <a *ngIf="projects[key].type==='app'" href="{{ projects[key].deployed }}" target="_blank">
+        App Store
+        <i class="fa fa-apple" aria-hidden="true"></i>
+      </a>
+      <a *ngIf="projects[key].type==='web' || projects[key].type==='web/video'" href="{{ projects[key].deployed }}" target="_blank">
+        Deployed Site
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+      </a>
+    </p>
+    <p [innerHTML]="projects[key].description"></p>
+    <p [innerHTML]="projects[key].languages"></p>
+    <a *ngIf="projects[key].type==='app'" href="{{ projects[key].deployed }}" target="_blank" class="appstore">
+      <img src="../../assets/images/projects/appstore.svg" alt="Download on the App Store">
+    </a>
+  </div>
+</div>
