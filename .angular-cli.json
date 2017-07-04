@@ -10,7 +10,9 @@
       "assets": [
         "assets",
         "favicon.png",
-        "sitemap.xml"
+        "sitemap.xml",
+        "README.md",
+        "CNAME"
       ],
       "index": "index.html",
       "main": "main.ts",
