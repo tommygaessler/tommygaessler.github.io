@@ -12,7 +12,9 @@
         "favicon.png",
         "sitemap.xml",
         "README.md",
-        "CNAME"
+        "CNAME",
+        ".htaccess",
+        "404.html"
       ],
       "index": "index.html",
       "main": "main.ts",
