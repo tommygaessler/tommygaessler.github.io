@@ -65,10 +65,14 @@
   background: #577fbc;
 }
 
-.share-buttons {
+.share-buttons-desktop {
   position: absolute;
-  top: 30.5px;
+  top: 19px;
   right: 19px;
+}
+
+.share-buttons-mobile {
+  display: none;
 }
 
 .twitter:focus {
@@ -259,6 +263,18 @@ p {
 }
 
 @media (max-width: 767px) {
+
+  .share-buttons-desktop {
+    display: none;
+  }
+
+  .share-buttons-mobile {
+    display: block;
+  }
+
+  p {
+    font-size: 16px;
+  }
 
   .navbar {
     display: block;

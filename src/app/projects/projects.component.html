@@ -18,7 +18,7 @@
       </h2>
 
 
-    <div class="share-buttons">
+    <div class="share-buttons-desktop">
       <button shareButton="twitter" [sbUrl]="projects[key].deployed" [sbTitle]="'Check out ' + projects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
 
       <button shareButton="facebook" [sbUrl]="projects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
@@ -39,7 +39,12 @@
       </a>
     </p>
     <p [innerHTML]="projects[key].description"></p>
-    <p [innerHTML]="projects[key].languages"></p>
+    <p [innerHTML]="projects[key].languages" class="languages"></p>
+    <div class="share-buttons-mobile">
+      <button shareButton="twitter" [sbUrl]="projects[key].deployed" [sbTitle]="'Check out ' + projects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+
+      <button shareButton="facebook" [sbUrl]="projects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
+    </div>
     <a *ngIf="projects[key].type==='app'" href="{{ projects[key].deployed }}" target="_blank" class="appstore">
       <img src="../../assets/images/projects/appstore.svg" alt="Download on the App Store">
     </a>

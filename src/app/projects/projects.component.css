@@ -15,11 +15,17 @@ img {
 .appstore {
   position: absolute;
   right: 19px;
-  width: 141.766px;
   bottom: 19px;
 }
 
+.appstore img {
+  border: none;
+  width: 145px;
+}
+
 h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -29,4 +35,26 @@ h2 a {
 
 h2 a:hover {
   color: #777;
+}
+
+.languages {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+
+  .appstore {
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+
+  .appstore img {
+    width: 145px;
+    margin-top: 16px;
+  }
+
+  .languages {
+    margin-bottom: 16px;
+  }
 }

@@ -55,10 +55,10 @@ export var projects:Object = {
   },
   habi_pets: {
     name: 'Habi Pets',
-    video: '_hMKpE4CvmY',
+    video: 'N0V59FX3tb0',
     description: 'A landing page and video I made for a company in the Telluride Venture Accelerator!',
     languages: 'HTML / CSS',
-    deployed: 'http://habipets.com',
+    deployed: 'http://tommygaessler.com/habipets',
     github: 'https://github.com/tommygaessler/habipets',
     type: 'web/video'
   },
@@ -66,7 +66,7 @@ export var projects:Object = {
     name: 'PFW',
     image: 'assets/images/projects/pfw.png',
     description: 'A website I built for a clients non-profit that helps families prepare for when loved ones pass away!',
-    languages: 'php / HTML / CSS',
+    languages: 'HTML / CSS',
     deployed: 'http://preparingtofinishwell.org',
     github: 'https://github.com/tommygaessler/preparingtofinishwell',
     type: 'web'
@@ -75,8 +75,8 @@ export var projects:Object = {
     name: 'Used Calculators',
     image: 'assets/images/projects/usedcalculators.png',
     description: 'A Christmas themed e-commerce website I made to sell calculators!',
-    languages: 'php / HTML / CSS',
-    deployed: 'http://usedcalculators.co',
+    languages: 'HTML / CSS',
+    deployed: 'http://tommygaessler.com/usedcalculators',
     github: 'https://github.com/tommygaessler/usedcalculators',
     type: 'web'
   },
@@ -84,8 +84,8 @@ export var projects:Object = {
     name: 'Suit Up Denver',
     video: 'nHNMkOq5xSQ',
     description: 'A website I built for a clients non-profit that donates suits to people in need of professional business attire!',
-    languages: 'php / HTML / CSS',
-    deployed: 'https://suitupdenver.herokuapp.com',
+    languages: 'HTML / CSS',
+    deployed: 'http://tommygaessler.com/suitupdenver',
     github: 'https://github.com/tommygaessler/suitupdenver',
     type: 'web/video'
   }
