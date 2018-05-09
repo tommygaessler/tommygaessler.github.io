@@ -40,8 +40,17 @@ export var projects:Object = {
     image: 'assets/images/projects/seniorcapstone.png',
     description: 'Senior capstone project reflecting my life at Regis Jesuit High School.',
     languages: 'php / jQuery / HTML / Sass',
-    deployed: 'https://seniorcapstone.herokuapp.com/',
+    deployed: 'http://capstone.tommygaessler.com/',
     github: 'https://github.com/tommygaessler/regis-jesuit-senior-capstone',
+    type: 'web'
+  },
+  most_liked: {
+    name: 'Most Liked',
+    image: 'assets/images/projects/mostliked.png',
+    description: 'Displays your most liked post on Instagram.',
+    languages: 'jQuery / HTML / CSS',
+    deployed: 'http://tommygaessler.com/mostliked/',
+    github: 'https://github.com/tommygaessler/mostliked',
     type: 'web'
   },
   kids247: {
