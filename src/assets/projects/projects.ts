@@ -49,7 +49,7 @@ export var projects:Object = {
     image: 'assets/images/projects/mostliked.png',
     description: 'Displays your most liked post on Instagram.',
     languages: 'jQuery / HTML / CSS',
-    deployed: 'http://tommygaessler.com/mostliked/',
+    deployed: 'https://tommygaessler.com/mostliked/',
     github: 'https://github.com/tommygaessler/mostliked',
     type: 'web'
   },
@@ -67,7 +67,7 @@ export var projects:Object = {
     video: 'N0V59FX3tb0',
     description: 'A landing page and video I made for a company in the Telluride Venture Accelerator!',
     languages: 'HTML / CSS',
-    deployed: 'http://tommygaessler.com/habipets',
+    deployed: 'https://tommygaessler.com/habipets',
     github: 'https://github.com/tommygaessler/habipets',
     type: 'web/video'
   },
@@ -85,7 +85,7 @@ export var projects:Object = {
     image: 'assets/images/projects/usedcalculators.png',
     description: 'A Christmas themed e-commerce website I made to sell calculators!',
     languages: 'HTML / CSS',
-    deployed: 'http://tommygaessler.com/usedcalculators',
+    deployed: 'https://tommygaessler.com/usedcalculators',
     github: 'https://github.com/tommygaessler/usedcalculators',
     type: 'web'
   },
@@ -94,7 +94,7 @@ export var projects:Object = {
     video: 'nHNMkOq5xSQ',
     description: 'A website I built for a clients non-profit that donates suits to people in need of professional business attire!',
     languages: 'HTML / CSS',
-    deployed: 'http://tommygaessler.com/suitupdenver',
+    deployed: 'https://tommygaessler.com/suitupdenver',
     github: 'https://github.com/tommygaessler/suitupdenver',
     type: 'web/video'
   }
