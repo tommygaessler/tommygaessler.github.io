@@ -13,7 +13,7 @@ export var projects:Object = {
     image: 'assets/images/projects/sitekite.png',
     description: 'A full-stack app using GitHub OAuth that builds portfolio websites for developers to showcase who they are, and what they’ve built.',
     languages: 'Node.js / Express / Nunjucks / PostgreSQL / HTML / CSS',
-    deployed: 'http://sitekite.co',
+    deployed: 'https://site-kite.herokuapp.com/',
     github: 'https://github.com/tommygaessler/sitekite',
     type: 'web'
   },
