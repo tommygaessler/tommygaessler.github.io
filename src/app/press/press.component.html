@@ -1,0 +1,18 @@
+<h1>Press</h1>
+
+<ng-container *ngFor="let article of press">
+  <ng-container *ngIf="article.mediaType === 'image'">
+    <a href="{{ article.link }}" target="_blank">
+      <img src="{{ article.media }}" alt="">
+    </a>
+  </ng-container>
+  <div *ngIf="article.mediaType === 'video'" class="video-container">
+    <youtube-player [videoId]="article.media"></youtube-player>
+  </div>
+  <h2><a href="{{ article.link }}" target="_blank">{{ article.title }}</a></h2>
+  <blockquote>
+    {{ article.description }}
+    <h6>- {{ article.author }}</h6>
+  </blockquote>
+  <p class="article-link"><a href="{{ article.link }}" target="_blank">Read Full Article</a></p>
+</ng-container>

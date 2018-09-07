@@ -12,6 +12,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { routing } from './app.router';
+import { PressComponent } from './press/press.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { routing } from './app.router';
     HomeComponent,
     ProjectsComponent,
     ContactComponent,
+    PressComponent,
   ],
   imports: [
     BrowserModule,
