@@ -1,11 +1,11 @@
 export var projects:Object = {
   trip_charge: {
-    name: 'Trip Charge',
+    name: 'TripCharge',
     image: 'assets/images/projects/tripcharge.png',
-    description: 'Find charging stations for your electric car along a route, or closest to you!',
+    description: 'Find electric car chargers!',
     languages: 'Swift / GO',
     deployed: 'https://itunes.apple.com/us/app/trip-charge-map-stations-along/id1186368321?mt=8',
-    github: 'https://github.com/tommygaessler/trip-charge',
+    github: 'https://github.com/tommygaessler/tripcharge',
     type: 'app'
   },
   sitekite: {
@@ -13,7 +13,7 @@ export var projects:Object = {
     image: 'assets/images/projects/sitekite.png',
     description: 'A full-stack app using GitHub OAuth that builds portfolio websites for developers to showcase who they are, and what they’ve built.',
     languages: 'Node.js / Express / Nunjucks / PostgreSQL / HTML / CSS',
-    deployed: 'https://site-kite.herokuapp.com/',
+    deployed: 'https://site-kite.herokuapp.com',
     github: 'https://github.com/tommygaessler/sitekite',
     type: 'web'
   },
@@ -22,7 +22,7 @@ export var projects:Object = {
     image: 'assets/images/projects/fundsplash.png',
     description: 'A crowd funding app for <a href="https://unsplash.com/" target="_blank">Unsplash</a> photographers!',
     languages: 'php / JavaScript / jQuery / HTML / Sass',
-    deployed: 'http://fundsplash.herokuapp.com',
+    deployed: 'https://fundsplash.herokuapp.com',
     github: 'https://github.com/tommygaessler/fundsplash',
     type: 'web'
   },
@@ -40,8 +40,17 @@ export var projects:Object = {
     image: 'assets/images/projects/seniorcapstone.png',
     description: 'Senior capstone project reflecting my life at Regis Jesuit High School.',
     languages: 'php / jQuery / HTML / Sass',
-    deployed: 'http://capstone.tommygaessler.com/',
+    deployed: 'http://capstone.tommygaessler.com',
     github: 'https://github.com/tommygaessler/regis-jesuit-senior-capstone',
+    type: 'web'
+  },
+  melody_quilts: {
+    name: 'Melody Quilts',
+    image: 'assets/images/projects/melodyquilts.png',
+    description: 'An art portfolio website I built for a client!',
+    languages: 'JavaScript / jQuery / HTML / CSS',
+    deployed: 'http://melodyquilts.com',
+    github: 'https://github.com/tommygaessler/melodyquilts',
     type: 'web'
   },
   most_liked: {
@@ -49,7 +58,7 @@ export var projects:Object = {
     image: 'assets/images/projects/mostliked.png',
     description: 'Displays your most liked post on Instagram.',
     languages: 'jQuery / HTML / CSS',
-    deployed: 'https://tommygaessler.com/mostliked/',
+    deployed: 'https://tommygaessler.com/mostliked',
     github: 'https://github.com/tommygaessler/mostliked',
     type: 'web'
   },
@@ -58,7 +67,7 @@ export var projects:Object = {
     image: 'assets/images/projects/kids247.png',
     description: 'A custom WordPress website/blog I built for a clients non-profit that helps kids and families in times of divorce!',
     languages: 'php / SQL / jQuery / HTML / Sass',
-    deployed: 'https://kids247.org/',
+    deployed: 'https://kids247.org',
     github: 'https://github.com/tommygaessler/kids247',
     type: 'web'
   },
@@ -76,7 +85,7 @@ export var projects:Object = {
     image: 'assets/images/projects/pfw.png',
     description: 'A website I built for a clients non-profit that helps families prepare for when loved ones pass away!',
     languages: 'HTML / CSS',
-    deployed: 'http://preparingtofinishwell.org',
+    deployed: 'https://preparingtofinishwell.org',
     github: 'https://github.com/tommygaessler/preparingtofinishwell',
     type: 'web'
   },

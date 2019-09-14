@@ -1,12 +1,4 @@
 export var press:Array<{}> = [
-  // {
-  //   title: 'Tommy Gaessler, Software Developer and Dev Evangelist, Apostrophe Health',
-  //   description: 'Hear Tommy Gaessler\'\s unique story of how he became a software developer!',
-  //   mediaType: 'video',
-  //   media: 'THPtVyDMhbo',
-  //   link: 'https://www.youtube.com/watch?v=THPtVyDMhbo',
-  //   author: 'Innovation Pavilion'
-  // },
   {
     title: 'Fox 31 News Interview of Tommy Gaessler at the Broncos Hackathon',
     description: 'Tommy Gaessler being interviewed by Fox 31 News at the Denver Broncos Hackathon sponsered by SendGrid and FullContact.',
