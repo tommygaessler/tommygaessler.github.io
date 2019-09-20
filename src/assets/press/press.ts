@@ -1,5 +1,13 @@
 export var press:Array<{}> = [
   {
+    title: 'Meet Colorado’s Top 15 Entrepreneurs and Innovators Under 25 Years Old!',
+    description: 'Gaessler took an unusual path to his first job, choosing to enroll in a six-month coding school at Galvanize, rather than college, when he finished up at Regis Jesuit High School in 2016. Since then, Gaessler landed a software development job at health insurance startup Apostrophe, took part in Techstars Boulder and recently took a job at Zoom Video Communications. He now currently works on Zoom’s App Marketplace, both on the API and the developer relations side.',
+    mediaType: 'image',
+    media: 'assets/images/press/tommygaessler-top-15-under-25.jpeg',
+    link: 'https://www.americaninno.com/colorado/inno-insights-colorado/the-kids-are-alright-meet-colorados-2019-inno-under-25/',
+    author: 'American Inno'
+  },
+  {
     title: 'Fox 31 News Interview of Tommy Gaessler at the Broncos Hackathon',
     description: 'Tommy Gaessler being interviewed by Fox 31 News at the Denver Broncos Hackathon sponsered by SendGrid and FullContact.',
     mediaType: 'video',
