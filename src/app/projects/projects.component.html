@@ -1,5 +1,7 @@
 <h1>Projects</h1>
 
+<p>Personal projects of mine.</p>
+
 <div *ngFor="let key of keys">
   <a *ngIf="projects[key].type==='web' || projects[key].type==='app'" href="{{ projects[key].deployed }}" target="_blank">
     <img src="{{ projects[key].image }}" alt="">
@@ -20,6 +22,8 @@
 
     <div class="share-buttons-desktop">
       <button shareButton="twitter" [sbUrl]="projects[key].deployed" [sbTitle]="'Check out ' + projects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+
+      <button shareButton="linkedin" [sbUrl]="projects[key].deployed" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> Share</button>
 
       <button shareButton="facebook" [sbUrl]="projects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
     </div>
@@ -43,9 +47,71 @@
     <div class="share-buttons-mobile">
       <button shareButton="twitter" [sbUrl]="projects[key].deployed" [sbTitle]="'Check out ' + projects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
 
+      <button shareButton="linkedin" [sbUrl]="projects[key].deployed" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> Share</button>
+
       <button shareButton="facebook" [sbUrl]="projects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
     </div>
     <a *ngIf="projects[key].type==='app'" href="{{ projects[key].deployed }}" target="_blank" class="appstore">
+      <img src="../../assets/images/projects/appstore.svg" alt="Download on the App Store">
+    </a>
+  </div>
+</div>
+
+
+<h2>Retired Projects</h2>
+
+<p>Previous personal projects or client work of mine.</p>
+
+<div *ngFor="let key of retiredKeys">
+  <a *ngIf="retiredProjects[key].type==='web' || retiredProjects[key].type==='app'" href="{{ retiredProjects[key].deployed }}" target="_blank">
+    <img src="{{ retiredProjects[key].image }}" alt="">
+  </a>
+
+  <div *ngIf="retiredProjects[key].type==='web/video'" class="video-container">
+    <youtube-player [videoId]="retiredProjects[key].video"></youtube-player>
+  </div>
+
+  <div class="well">
+
+      <h2>
+        <a href="{{ retiredProjects[key].deployed }}" target="_blank">
+          {{ retiredProjects[key].name }}
+        </a>
+      </h2>
+
+
+    <div class="share-buttons-desktop">
+      <button shareButton="twitter" [sbUrl]="retiredProjects[key].deployed" [sbTitle]="'Check out ' + retiredProjects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+
+      <button shareButton="linkedin" [sbUrl]="retiredProjects[key].deployed" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> Share</button>
+
+      <button shareButton="facebook" [sbUrl]="retiredProjects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
+    </div>
+
+    <p>
+      <a href="{{ retiredProjects[key].github }}" target="_blank">
+        <i class="fa fa-github" aria-hidden="true"></i>
+        Github Repo
+      </a> |
+      <a *ngIf="retiredProjects[key].type==='app'" href="{{ retiredProjects[key].deployed }}" target="_blank">
+        App Store
+        <i class="fa fa-apple" aria-hidden="true"></i>
+      </a>
+      <a *ngIf="retiredProjects[key].type==='web' || retiredProjects[key].type==='web/video'" href="{{ retiredProjects[key].deployed }}" target="_blank">
+        Deployed Site
+        <i class="fa fa-desktop" aria-hidden="true"></i>
+      </a>
+    </p>
+    <p [innerHTML]="retiredProjects[key].description"></p>
+    <p [innerHTML]="retiredProjects[key].languages" class="languages"></p>
+    <div class="share-buttons-mobile">
+      <button shareButton="twitter" [sbUrl]="retiredProjects[key].deployed" [sbTitle]="'Check out ' + retiredProjects[key].name + ' by @tommygaessler!'"  class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+
+      <button shareButton="linkedin" [sbUrl]="retiredProjects[key].deployed" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i> Share</button>
+
+      <button shareButton="facebook" [sbUrl]="retiredProjects[key].deployed" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Share</button>
+    </div>
+    <a *ngIf="retiredProjects[key].type==='app'" href="{{ retiredProjects[key].deployed }}" target="_blank" class="appstore">
       <img src="../../assets/images/projects/appstore.svg" alt="Download on the App Store">
     </a>
   </div>

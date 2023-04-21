@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { PressComponent } from './press/press.component';
+import { TalksComponent } from './talks/talks.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'press',
     component: PressComponent,
+  },
+  {
+    path: 'talks',
+    component: TalksComponent,
   },
   {
     path: 'contact',

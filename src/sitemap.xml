@@ -6,15 +6,23 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://tommygaessler.com/</loc>
+  <loc>https://tommygaessler.com/</loc>
   <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tommygaessler.com/press</loc>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://tommygaessler.com/projects</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://tommygaessler.com/contact</loc>
+  <loc>http://tommygaessler.com/talks</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tommygaessler.com/contact</loc>
   <priority>0.80</priority>
 </url>
 </urlset>

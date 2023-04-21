@@ -1,5 +1,7 @@
 <h1>Press</h1>
 
+<p>News articles, video features, and more.</p>
+
 <ng-container *ngFor="let article of press">
   <ng-container *ngIf="article.mediaType === 'image'">
     <a href="{{ article.link }}" target="_blank">

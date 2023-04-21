@@ -28,6 +28,23 @@
 
 /* Project Share Buttons */
 
+.linkedin {
+  border: none;
+  background: #0074b1;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0px 8px 0px 8px;
+  vertical-align: top;
+  zoom: 1;
+  margin-left: 5px;
+}
+
+.linkedin:active, .linkedin:focus, .linkedin:hover {
+
+}
+
 .twitter {
   border: none;
   background-color: #1b95e0;
@@ -54,7 +71,7 @@
   padding: 0px 8px 0px 8px;
   vertical-align: top;
   zoom: 1;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .facebook:hover {

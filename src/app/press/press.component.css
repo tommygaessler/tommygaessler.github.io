@@ -9,9 +9,3 @@ blockquote {
 .article-link {
   margin-bottom: 50px;
 }
-
-a:first-of-type img {
-  width: 50%;
-  margin: auto;
-  display: block;
-}

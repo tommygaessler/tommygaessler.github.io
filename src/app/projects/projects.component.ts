@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { projects } from '../../assets/projects/projects';
 
+import { retiredProjects } from '../../assets/projects/retired-projects';
+
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
@@ -10,7 +12,9 @@ import { projects } from '../../assets/projects/projects';
 export class ProjectsComponent implements OnInit {
 
   keys: string[];
+  retiredKeys: string[];
   projects: Object;
+  retiredProjects: Object;
   twitter: Object;
   facebook: Object;
 
@@ -18,7 +22,9 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.projects = projects;
+    this.retiredProjects = retiredProjects;
     this.keys = Object.keys(projects);
+    this.retiredKeys = Object.keys(retiredProjects);
   }
 
 }
