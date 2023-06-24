@@ -1,5 +1,13 @@
 export var press:Array<{}> = [
   {
+    title: 'From high school to bootcamp to lasting career in tech',
+    description: 'Tommy Gaessler graduated from our Intermediate Coding Bootcamp back in 2016. His initial interest in coding began early in life, inspired by playing Minecraft with friends and pursued through high school coding courses. After high school, he enrolled in the bootcamp and launched a career that he’s still enjoying today, now as a Senior Developer Advocate and Software Engineer at Zoom.',
+    mediaType: 'image',
+    media: 'assets/images/press/tommygaessler-galvanize.png',
+    link: 'https://www.galvanize.com/student-stories/tommy-gaessler-from-high-school-to-bootcamp-to-lasting-career-in-tech/',
+    author: 'Galvanize | Hack Reactor'
+  },
+  {
     title: 'Top 20 Developer Advocates',
     description: 'As a Developer Advocate for Zoom, Tommy focuses on the API and Developer Relations side of Zoom’s App Marketplace. He has many laudable projects under his belt, and was named one of the top 15 innovators in Colorado under 25 in 2019. Tommy is the editor of the Zoom Developer Blog, and also authors many articles himself. He specializes in Node.js, Angular, and Amazon Web Services.',
     mediaType: 'image',
