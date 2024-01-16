@@ -1,0 +1,20 @@
+<h1>Posts</h1>
+
+<p>Blog posts I've authored.</p>
+
+<ng-container *ngFor="let post of posts">
+  <ng-container *ngIf="post.mediaType === 'image'">
+    <a href="{{ post.link }}" target="_blank">
+      <img src="{{ post.media }}" alt="">
+    </a>
+  </ng-container>
+  <div *ngIf="post.mediaType === 'video'" class="video-container">
+    <youtube-player [videoId]="post.media"></youtube-player>
+  </div>
+  <h2><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
+  <blockquote>
+    {{ post.description }}
+    <h6>- {{ post.author }} | {{ post.date }}</h6>
+  </blockquote>
+  <p class="article-link"><a href="{{ post.link }}" target="_blank">Read Full Post</a></p>
+</ng-container>

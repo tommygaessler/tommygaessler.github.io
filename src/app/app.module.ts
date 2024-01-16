@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { routing } from './app.router';
 import { PressComponent } from './press/press.component';
 import { TalksComponent } from './talks/talks.component';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TalksComponent } from './talks/talks.component';
     ContactComponent,
     PressComponent,
     TalksComponent,
+    PostsComponent,
   ],
   imports: [
     BrowserModule,
