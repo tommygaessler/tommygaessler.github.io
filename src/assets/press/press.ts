@@ -27,6 +27,15 @@ export var press:Array<{}> = [
     author: 'American Inno'
   },
   {
+    title: 'Tesla CEO Elon Musk said in July that he anticipated the company would enter "production hell" for the Model 3.',
+    date: 'Nov 3, 2017',
+    description: 'Tommy Gaessler, a first-day reservation holder, said his timeline was also pushed back by one month. Gaessler ordered a dual-motor all-wheel-drive Model 3, an option that Tesla has said won\'t be produced until Spring 2018. Gaessler now expects to receive the car between September and November 2018 instead of August to October 2018.',
+    mediaType: 'image',
+    media: 'assets/images/press/tommygaessler-tesla-model3-day-one-reservation-holder.jpeg',
+    link: 'https://www.businessinsider.com/tesla-delays-model-3-deliveries-by-at-least-one-month-2017-11',
+    author: 'Business Insider'
+  },
+  {
     title: 'Sports film-editing software wins CU NVC Championship',
     date: 'Apr 7, 2017',
     description: 'Give & Go, an automated film editing platform for sports teams and coaches, took home top honors at the University of Colorado Boulder\'s New Venture Challenge (NVC) Championship on Thursday night, winning first place in the annual event that showcases entrepreneurial innovation from across campus. Give & Go, co-founded by CU Boulder students Mac Bolak, Andrew Casner and Nick Erokhin, allows coaches to edit game film up to 72 times faster than the competition. The project will receive $14,000 in award money as well as $50,000 convertible note from Brad Feld and Dan Caruso, two of Boulder\'s most notable entrepreneurs.',

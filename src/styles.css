@@ -279,7 +279,11 @@ p {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 846px) {
+
+  .no-mobile {
+    display: none;
+  }
 
   .share-buttons-desktop {
     display: none;
