@@ -9,7 +9,7 @@
       "outDir": "docs",
       "assets": [
         "assets",
-        "favicon.png",
+        "favicon.ico",
         "sitemap.xml",
         "README.md",
         "CNAME",

@@ -9,6 +9,15 @@ export var press:Array<{}> = [
     author: 'Galvanize | Hack Reactor'
   },
   {
+    title: 'Tribe upgrades online fitness classes from local studios',
+    date: 'May 5, 2023',
+    description: 'After migrating to Zoom\'s Video SDK, Tribe was able to significantly enhance the application experience for users while also lowering their CPU usage. Zoom\'s lead developer advocate for Video SDK, Tommy Gaessler, was extremely helpful in providing technical guidance during our development.',
+    mediaType: 'image',
+    media: 'https://media.zoom.com/images/assets/Tribe.webp/Zz1lZjE0NDU5OGUzYzYxMWVmYjU2ZjJlZWM1MTAwNWE4Nw==?t=20250513024547',
+    link: 'https://www.zoom.com/en/customer-stories/tribe/',
+    author: 'Zoom | Tribe'
+  },
+  {
     title: 'Top 20 Developer Advocates',
     date: 'Jan 16, 2020',
     description: 'As a Developer Advocate for Zoom, Tommy focuses on the API and Developer Relations side of Zoom\'s App Marketplace. He has many laudable projects under his belt, and was named one of the top 15 innovators in Colorado under 25 in 2019. Tommy is the editor of the Zoom Developer Blog, and also authors many articles himself. He specializes in Node.js, Angular, and Amazon Web Services.',

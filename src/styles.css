@@ -45,9 +45,9 @@
 
 }
 
-.twitter {
+.x-twitter {
   border: none;
-  background-color: #1b95e0;
+  background-color: #000000;
   color: #fff;
   border-radius: 4px;
   font-weight: 500;
@@ -57,8 +57,8 @@
   zoom: 1;
 }
 
-.twitter:active, .twitter:focus, .twitter:hover {
-  background-color: #0c7abf;
+.x-twitter:active, .x-twitter:focus, .x-twitter:hover {
+  background-color: #333333;
 }
 
 .facebook {
@@ -92,7 +92,7 @@
   display: none;
 }
 
-.twitter:focus {
+.x-twitter:focus {
   outline: none;
 }
 
