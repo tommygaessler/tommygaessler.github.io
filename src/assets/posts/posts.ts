@@ -1,5 +1,14 @@
 export var posts:Array<{}> = [
     {
+        title: 'Rethink web permissions: Seamless user control of powerful capabilities with Chrome\'s new proposed <permission> element',
+        date: 'Jun 6, 2025',
+        description: 'Zoom helps its users by decreasing camera and microphone capture errors in the browser by 46.9% with the <permission> element...',
+        mediaType: 'image',
+        media: 'https://developer.chrome.com/static/blog/rethinking-web-permissions/untitleddocume--h5jv8wldir_1920.png',
+        link: 'https://developer.chrome.com/blog/rethinking-web-permissions',
+        author: 'Minh Le ft. Tommy Gaessler | Google Chrome for Developers Blog'
+    },
+    {
         title: 'Unsplash Chatbot for Zoom Team Chat',
         date: 'Nov 20, 2024',
         description: 'How to Build a Zoom Chatbot from scratch using Node.js, PostgreSQL, the Unsplash API, and Heroku. In this article we will build a Zoom Chatbot that sends Unsplash photos! You can code along or you can skip the coding and one click deploy...',
@@ -18,6 +27,24 @@ export var posts:Array<{}> = [
         author: 'Davit Baghdasaryan ft. Tommy Gaessler | Krisp Voice AI Podcast'
     },
     {
+        title: 'Migrating to Zoom Video SDK & Building with UI Toolkit (Track: Build / CPaaS)',
+        date: 'Jun 27, 2024',
+        description: 'Speakers: Tommy Gaessler, Sr Developer Advocate Engineer; Will Ezrine, Developer Advocate and Jon Lieblich, Developer Advocate Engineer (Zoom)',
+        mediaType: 'video',
+        media: 'ayUHpOUduSw',
+        link: 'https://www.youtube.com/watch?v=ayUHpOUduSw',
+        author: 'Tommy Gaessler, Will Ezrine, Jon Lieblich | Zoom Developer Youtube'
+    },
+    {
+        title: 'Zoom Video SDK UI Toolkit',
+        date: 'Jun 5, 2024',
+        description: 'Learn more about Zoom\'s new Video SDK UI Toolkit. For developers looking to expedite the build process without compromising on quality, Zoom\'s Video SDK UI Toolkit offers a low-code, prebuilt user interface option. Embed real-time video experiences in your iOS, Android, or web app in just a few lines of code...',
+        mediaType: 'video',
+        media: '6kw7W6lSurE',
+        link: 'https://www.youtube.com/watch?v=6kw7W6lSurE',
+        author: 'Tommy Gaessler | Zoom Developer Youtube'
+    },
+    {
         title: 'The Video SDK UI Toolkit is here!',
         date: 'Apr 11, 2024',
         description: 'The Zoom Video UI Toolkit allow you to embed a custom video experience in your iOS, Android, or Web apps with just a few lines of code. This reduces the amount of development effort required for implementing a video chat experience, and allows you to...',
@@ -25,6 +52,15 @@ export var posts:Array<{}> = [
         media: 'https://developers.zoom.us/img/blog/tommygaessler/videosdk-ui-toolkit-web/nextImageExportOptimizer/cover-opt-1920.WEBP',
         link: 'https://developers.zoom.us/blog/videosdk-ui-toolkits/',
         author: 'Tommy Gaessler | Zoom Developer Blog'
+    },
+    {
+        title: 'Zoom & Twilio presents: Migrating to and Building with Zoom\'s Video SDK',
+        date: 'Mar 26, 2024',
+        description: 'Join Zoom\'s Developer Relations team and Twilio\'s Head of Engineering and Director of Product Management to learn about building with Zoom\'s core technology through our Video SDK...',
+        mediaType: 'video',
+        media: 'CUyd8PAfLt0',
+        link: 'https://www.youtube.com/watch?v=CUyd8PAfLt0',
+        author: 'Tommy Gaessler, Tim Slagle, Donal Toomey | Zoom Youtube'
     },
     {
         title: 'How to use Twilio IVR Dial Trees with the Zoom Meeting SDK',
@@ -123,7 +159,7 @@ export var posts:Array<{}> = [
         mediaType: 'video',
         media: 'CgE-m6RkzHQ',
         link: 'https://www.youtube.com/watch?v=CgE-m6RkzHQ',
-        author: 'Tommy Gaessler | Zoom Youtube'
+        author: 'Tommy Gaessler, Justin Marston, Mohd Irfan | Zoom Youtube'
     },
     {
         title: 'Zoom + AWS Virtual Participant Framework now available on Github',
@@ -195,7 +231,7 @@ export var posts:Array<{}> = [
         mediaType: 'video',
         media: 'bvz1-LsyRB8',
         link: 'https://www.youtube.com/watch?v=bvz1-LsyRB8',
-        author: 'Chun Siong Tan | Jenzus Hsu | Bruce Lee | Boon Tan | Tommy Gaessler | Zoom Youtube'
+        author: 'Chun Siong Tan, Jenzus Hsu, Bruce Lee, Boon Tan, Tommy Gaessler | Zoom Youtube'
     },
     {
         title: 'How the Zoom Meeting SDKs are versioned',
