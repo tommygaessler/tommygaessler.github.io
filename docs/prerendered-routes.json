@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/": {},
+    "/posts": {},
+    "/press": {},
+    "/projects": {},
+    "/talks": {}
+  }
+}
