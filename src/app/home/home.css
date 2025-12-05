@@ -12,3 +12,12 @@ h1 {
 .hero h3, .hero p {
     margin: 0;
 }
+
+.card h2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card {
+    padding: 20px;
+}

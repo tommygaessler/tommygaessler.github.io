@@ -7,6 +7,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    max-width: 1500px;
+    margin: auto;
 }
 
 h1, h2, h3 {
@@ -24,12 +26,12 @@ main {
 }
 
 a {
-    text-decoration: none;
-    color: #0b5cff;
+    text-decoration: underline;
+    color: #000000;
 }
 
 a:hover {
-    color: #6b99f9;
+    color: #565A61;
 }
 
 .row {
@@ -64,7 +66,7 @@ a:hover {
     border-top-right-radius: 10px;
 }
 
-.card h2, .card p, .card a {
+.card h2 {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
