@@ -21,3 +21,9 @@ h1 {
 .card {
     padding: 20px;
 }
+
+a {
+    display: inline-block;
+    padding: 6px 2px;
+    margin: -6px -2px;
+}
