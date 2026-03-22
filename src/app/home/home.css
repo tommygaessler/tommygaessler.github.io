@@ -9,21 +9,34 @@ h1 {
     margin-bottom: 50px;
 }
 
+img {
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
 .hero h3, .hero p {
     margin: 0;
 }
 
 .card h2 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.card {
-    padding: 20px;
+.card p {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-a {
-    display: inline-block;
-    padding: 6px 2px;
-    margin: -6px -2px;
+fa-icon {
+    font-size: 70px;
+    color: #0b5cff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row .column:last-of-type p:first-of-type {
+    margin-top: -10px;
 }
