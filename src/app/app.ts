@@ -3,8 +3,8 @@ import { RouterOutlet, RouterLink, Router, NavigationEnd } from '@angular/router
 import { Canonical } from './canonical';
 import { filter } from 'rxjs/operators';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faBookBible } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faXTwitter, faMedium, faYoutube, faUnsplash, faAppStoreIos, faNpm, faGithub, faStackOverflow, faZoom } from '@fortawesome/free-brands-svg-icons';
+import { faBookBible, faFlagUsa } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faXTwitter, faMedium, faYoutube, faUnsplash, faAppStoreIos, faNpm, faGithub, faStackOverflow, faZoom, faW3c } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -25,8 +25,10 @@ export class App {
   faGithub = faGithub;
   faNpm = faNpm;
   faStackOverflow = faStackOverflow;
+  faFlagUsa = faFlagUsa;
   faZoom = faZoom;
-
+  faW3c = faW3c;
+  
   constructor(private router: Router, private canonical: Canonical) {
     this.router.events
       .pipe(filter(e => e instanceof NavigationEnd))

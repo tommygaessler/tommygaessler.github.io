@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faZoom } from '@fortawesome/free-brands-svg-icons';
+import { faGolfBallTee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -12,5 +13,6 @@ import { faZoom } from '@fortawesome/free-brands-svg-icons';
 export class Home {
 
   faZoom = faZoom;
+  faGolfBallTee = faGolfBallTee;
 
 }
