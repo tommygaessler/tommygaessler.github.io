@@ -85,4 +85,13 @@ footer .amdg a {
     margin-top: 10px;
     float: none;
   }
+
+  footer .social a {
+    margin-right: 5px;
+  }
+
+  footer .developer a {
+    margin-left: 5px;
+  }
+
 }
